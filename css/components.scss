@@ -1166,3 +1166,274 @@ xmp{
 		}
 	}
 }
+
+
+/*---------------*/
+/***** Roxy *****/
+/*---------------*/
+
+.cs-style-13{
+    figure{
+		overflow: hidden;
+		position: relative;
+        max-height: 400px
+	}
+    figure.effect-roxy {
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  img {
+    max-width: none;
+    width: -webkit-calc(100% + 60px);
+    width: calc(100% + 60px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-50px, 0, 0);
+  }
+  figcaption::before {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      border: 1px solid #fff;
+      content: '';
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-20px, 0, 0);
+      transform: translate3d(-20px, 0, 0);
+    }
+    figcaption{padding: 3em;
+    text-align: left;
+  }
+  h3 {
+    padding: 30% 0 10px 0;
+  }
+  p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  &:hover {
+    img {
+      opacity: 0.7;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    figcaption::before, p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+    h3, p, a {
+    bottom: 450px;
+    color: #fff;
+    position: relative;
+}
+    
+}
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+.cs-style-14{
+        figure{
+		overflow: hidden;
+		position: relative;
+        max-height: 400px
+	}
+figure.effect-oscar {
+  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  figcaption {
+    padding: 3em;
+    background-color: rgba(58, 52, 42, 0.7);
+    -webkit-transition: background-color 0.35s;
+    transition: background-color 0.35s;
+    &::before {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      border: 1px solid #fff;
+      content: '';
+    }
+  }
+  h2 {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  figcaption::before, p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  &:hover {
+    h2 {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    figcaption::before, p {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    figcaption {
+      background-color: rgba(58, 52, 42, 0);
+    }
+    img {
+      opacity: 0.4;
+    }
+  }
+}
+        h3, p, a {
+    bottom: 290px;
+    color: #fff;
+    position: relative;
+}
+}
+/*---------------*/
+/***** Honey *****/
+/*---------------*/
+.cs-style-20{
+
+
+figure.effect-zoe {
+  figcaption {
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 3.75em;
+    background: #eee;
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+      position: absolute;
+    bottom:-88px;
+      height: 90px;
+      width: 95.5%;
+      opacity: 0;
+       -webkit-transition: all 0.95s;
+    transition: all 0.95s;
+  }
+  h2 {
+    float: left;
+  }
+  p.icon-links a {
+    float: right;
+    color: #3c4a50;
+    font-size: 1.4em;
+  }
+  &:hover p.icon-links a {
+    &:hover, &:focus {
+      color: #252d31;
+    }
+  }
+  p.description {
+    position: absolute;
+    bottom: 8em;
+    padding: 2em;
+    color: #fff;
+    text-transform: none;
+    font-size: 90%;
+    opacity: 0;
+    -webkit-transition:all 0.35s;
+    transition: all 0.35s;
+    -webkit-backface-visibility: hidden;
+    /* Fix for Chrome 37.0.2062.120 (Mac) */
+  }
+  h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+  }
+  p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+    span::before {
+      display: inline-block;
+      padding: 8px 10px;
+      font-family: 'feathericons';
+      speak: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+}
+
+.icon-eye::before {
+  content: '\e000';
+}
+
+.icon-paper-clip::before {
+  content: '\e001';
+}
+
+.icon-heart::before {
+  content: '\e024';
+}
+    figure.effect-zoe:hover figcaption{
+        opacity: 1;
+        bottom: 0;
+        -webkit-transition:all 0.55s;
+    transition: all 0.55s;
+        
+    }
+
+figure.effect-zoe {
+  h2 {
+    display: inline-block;
+  }
+  &:hover {
+    p.description {
+      opacity: 1;
+    }
+    figcaption, h2, p.icon-links a {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    h2 {
+      -webkit-transition-delay: 0.05s;
+      transition-delay: 0.05s;
+    }
+    p.icon-links a {
+      &:nth-child(3) {
+        -webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
+      }
+      &:nth-child(2) {
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+      }
+      &:first-child {
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+      }
+    }
+  }
+}
+}
+
+
+
