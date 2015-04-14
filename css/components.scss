@@ -7,6 +7,30 @@ pre{
 .content{
 	background: #fff;
 }
+.navbar.is_stuck{
+	width: 100%;
+	height:60px;
+	z-index: 99999;
+	background-color:#ED4E6E !important; 
+}
+
+.navbar{
+	width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    border: 1px solid #fff;
+    color: #fff !important;
+    margin: 3px;
+}
+.navbar-default .navbar-nav > li > a:hover li {
+    background-color: #A3364B
+}
+
+.navbar-default{
+	background-color: transparent !important;
+	border-color:transparent !important;
+}
 /*
 
 * Based on Cover by https://twitter.com/mdo"  @mdo

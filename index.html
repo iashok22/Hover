@@ -17,37 +17,11 @@
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
 <script src="js/modernizr.custom.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/stickykit.js"></script>
+
 	</head>
 	<body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-        </div>
-        <div class="navbar-collapse collapse" id="navbar">
-          <ul class="nav navbar-nav">
-           <li><a href="#how" class="active">How To</a></li>
-            <li><a href="#style1">Style 1</a></li>
-            <li><a href="#style2">Style 2</a></li>
-            <li><a href="#style3">Style 3</a></li>
-            <li><a href="#style4">Style 4</a></li>
-            <li><a href="#style5">Style 5</a></li>
-            <li><a href="#style6">Style 6</a></li>
-            <li><a href="#style7">Style 7</a></li>
-              <li><a href="#style8">Style 8</a></li>
-              <li><a href="#style9">Style 9</a></li>
-            
-          </ul>
 
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
 	<div class="site-wrapper" >
   <div class="site-wrapper-inner">
     <div class="cover-container">
@@ -63,6 +37,36 @@
 
         <p class="lead"><a class="btn btn-lg btn-info" href="#">View On Github</a></p>
       </div>
+      <nav class="navbar navbar-default navbar-fixed">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+           <li><a href="#how" class="active"><b>How To</b></a></li>
+           <li><a href="#style1"><b>STYLES</b></a></li>
+            <li><a href="#style1">1</a></li>
+            <li><a href="#style2">2</a></li>
+            <li><a href="#style3">3</a></li>
+            <li><a href="#style4">4</a></li>
+            <li><a href="#style5">5</a></li>
+            <li><a href="#style6">6</a></li>
+            <li><a href="#style7">7</a></li>
+              <li><a href="#style8">8</a></li>
+              <li><a href="#style9">9</a></li>
+            
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
     </div>
@@ -1345,6 +1349,10 @@
         </script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-		
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".navbar").stick_in_parent();
+	});
+</script>	
 	</body>
 </html>
