@@ -1276,15 +1276,15 @@ xmp {
 /*---------------*/
 /***** Sarah *****/
 /*---------------*/
-.cs-style-18 figure.effect-sarah img {
+.cs-style-18 figure img {
   backface-visibility: hidden; }
-.cs-style-18 figure.effect-sarah:hover img {
+.cs-style-18 figure:hover img {
   opacity: 0.9;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-.cs-style-18 figure.effect-sarah figcaption {
+.cs-style-18 figure figcaption {
   text-align: left; }
-.cs-style-18 figure.effect-sarah h3, .cs-style-18 figure.effect-sarah p {
+.cs-style-18 figure h3, .cs-style-18 figure p {
   bottom: 190px;
   color: #fff;
   position: relative;
@@ -1292,11 +1292,11 @@ xmp {
   margin-left: auto;
   margin-right: auto;
   text-align: right; }
-.cs-style-18 figure.effect-sarah h3 {
+.cs-style-18 figure h3 {
   position: relative;
   overflow: hidden;
   padding: 0.5em 0; }
-  .cs-style-18 figure.effect-sarah h3::after {
+  .cs-style-18 figure h3::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1308,17 +1308,17 @@ xmp {
     transition: transform 0.35s;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0); }
-.cs-style-18 figure.effect-sarah:hover h3::after {
+.cs-style-18 figure:hover h3::after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
-.cs-style-18 figure.effect-sarah p {
+.cs-style-18 figure p {
   padding: 1em 0;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0); }
-.cs-style-18 figure.effect-sarah:hover p {
+.cs-style-18 figure:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
@@ -1326,27 +1326,27 @@ xmp {
 /*---------------*/
 /***** Julia *****/
 /*---------------*/
-.cs-style-19 figure.effect-julia {
+.cs-style-19 figure {
   max-height: 390px;
   overflow: hidden; }
-  .cs-style-19 figure.effect-julia figure {
+  .cs-style-19 figure figure {
     overflow: hidden;
     position: relative;
     max-height: 380px; }
-  .cs-style-19 figure.effect-julia img {
+  .cs-style-19 figure img {
     -webkit-transition: opacity 1s, -webkit-transform 1s;
     transition: opacity 1s, transform 1s;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  .cs-style-19 figure.effect-julia figcaption {
+  .cs-style-19 figure figcaption {
     text-align: left; }
-  .cs-style-19 figure.effect-julia h3 {
+  .cs-style-19 figure h3 {
     position: relative;
     padding: 0.5em 0;
     bottom: 190px;
     left: 20px;
     color: #fff; }
-  .cs-style-19 figure.effect-julia p {
+  .cs-style-19 figure p {
     bottom: 190px;
     left: 20px;
     position: relative;
@@ -1362,29 +1362,29 @@ xmp {
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(-360px, 0, 0);
     transform: translate3d(-360px, 0, 0); }
-    .cs-style-19 figure.effect-julia p:first-child {
+    .cs-style-19 figure p:first-child {
       -webkit-transition-delay: 0.15s;
       transition-delay: 0.15s; }
-    .cs-style-19 figure.effect-julia p:nth-of-type(2) {
+    .cs-style-19 figure p:nth-of-type(2) {
       -webkit-transition-delay: 0.1s;
       transition-delay: 0.1s; }
-    .cs-style-19 figure.effect-julia p:nth-of-type(3) {
+    .cs-style-19 figure p:nth-of-type(3) {
       -webkit-transition-delay: 0.05s;
       transition-delay: 0.05s; }
-  .cs-style-19 figure.effect-julia:hover p:first-child {
+  .cs-style-19 figure:hover p:first-child {
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
-  .cs-style-19 figure.effect-julia:hover p:nth-of-type(2) {
+  .cs-style-19 figure:hover p:nth-of-type(2) {
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s; }
-  .cs-style-19 figure.effect-julia:hover p:nth-of-type(3) {
+  .cs-style-19 figure:hover p:nth-of-type(3) {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s; }
-  .cs-style-19 figure.effect-julia:hover img {
+  .cs-style-19 figure:hover img {
     opacity: 0.9;
     -webkit-transform: scale(1.1);
     transform: scale(1.1); }
-  .cs-style-19 figure.effect-julia:hover p {
+  .cs-style-19 figure:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
