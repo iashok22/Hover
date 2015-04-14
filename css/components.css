@@ -34,8 +34,8 @@ a:hover {
   border: 1px solid #fff; }
 
 /*
- * Base structure
- */
+* Base structure
+*/
 /* Common style */
 /* Common style */
 html,
@@ -47,7 +47,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  background-color: #060;
+  background-color: #fff;
   color: #fff;
   font-family: 'Raleway', sans-serif !important; }
 
@@ -80,8 +80,8 @@ body {
   padding: 30px; }
 
 /*
- * Header
- */
+* Header
+*/
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px; }
@@ -121,8 +121,8 @@ body {
   .masthead-nav {
     float: right; } }
 /*
- * Cover
- */
+* Cover
+*/
 .cover {
   padding: 0 20px; }
 
@@ -131,16 +131,16 @@ body {
   font-weight: bold; }
 
 /*
- * Footer
- */
+* Footer
+*/
 .mastfoot {
   color: #999;
   /* IE8 proofing */
   color: rgba(255, 255, 255, 0.5); }
 
 /*
- * Affix and center
- */
+* Affix and center
+*/
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
@@ -987,148 +987,153 @@ xmp {
 /*---------------*/
 /***** Oscar *****/
 /*---------------*/
-.cs-style-14 figure {
-  overflow: hidden;
-  position: relative;
-  max-height: 400px; }
-.cs-style-14 figure.effect-oscar {
-  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%); }
-  .cs-style-14 figure.effect-oscar img {
-    opacity: 0.9;
-    -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s;
-    max-width: none;
-    width: -webkit-calc(100% + 60px);
-    width: calc(100% + 60px); }
-  .cs-style-14 figure.effect-oscar figcaption {
-    padding: 3em;
-    background-color: rgba(58, 52, 42, 0.7);
-    -webkit-transition: background-color 0.35s;
-    transition: background-color 0.35s; }
-    .cs-style-14 figure.effect-oscar figcaption::before {
-      position: absolute;
-      top: 30px;
-      right: 30px;
-      bottom: 30px;
-      left: 30px;
-      border: 1px solid #fff;
-      content: ''; }
-  .cs-style-14 figure.effect-oscar h2 {
-    margin: 20% 0 10px 0;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
-  .cs-style-14 figure.effect-oscar figcaption::before, .cs-style-14 figure.effect-oscar p {
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: scale(0);
-    transform: scale(0); }
-  .cs-style-14 figure.effect-oscar:hover h2 {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
-  .cs-style-14 figure.effect-oscar:hover figcaption::before, .cs-style-14 figure.effect-oscar:hover p {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  .cs-style-14 figure.effect-oscar:hover figcaption {
-    background-color: rgba(58, 52, 42, 0); }
-  .cs-style-14 figure.effect-oscar:hover img {
-    opacity: 0.4; }
-.cs-style-14 h3, .cs-style-14 p, .cs-style-14 a {
-  bottom: 290px;
-  color: #fff;
-  position: relative; }
+.cs-style-14 {
+  max-height: 540px;
+  overflow: hidden; }
+  .cs-style-14 figure {
+    overflow: hidden;
+    position: relative;
+    max-height: 380px; }
+  .cs-style-14 figure.effect-oscar {
+    background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+    background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%); }
+    .cs-style-14 figure.effect-oscar img {
+      opacity: 0.9;
+      -webkit-transition: opacity 0.35s;
+      transition: opacity 0.35s;
+      max-width: none;
+      width: -webkit-calc(100% + 60px);
+      width: calc(100% + 60px); }
+    .cs-style-14 figure.effect-oscar figcaption {
+      padding: 3em;
+      background-color: rgba(58, 52, 42, 0.7);
+      -webkit-transition: background-color 0.35s;
+      transition: background-color 0.35s; }
+      .cs-style-14 figure.effect-oscar figcaption::before {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        border: 1px solid #fff;
+        content: ''; }
+    .cs-style-14 figure.effect-oscar h2 {
+      margin: 20% 0 10px 0;
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0); }
+    .cs-style-14 figure.effect-oscar figcaption::before, .cs-style-14 figure.effect-oscar p {
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: scale(0);
+      transform: scale(0); }
+    .cs-style-14 figure.effect-oscar:hover h2 {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+    .cs-style-14 figure.effect-oscar:hover figcaption::before, .cs-style-14 figure.effect-oscar:hover p {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+    .cs-style-14 figure.effect-oscar:hover figcaption {
+      background-color: rgba(58, 52, 42, 0); }
+    .cs-style-14 figure.effect-oscar:hover img {
+      opacity: 0.4; }
+  .cs-style-14 h3, .cs-style-14 p, .cs-style-14 a {
+    bottom: 290px;
+    color: #fff;
+    position: relative; }
 
 /*---------------*/
 /***** Honey *****/
 /*---------------*/
-.cs-style-20 figure.effect-zoe figcaption {
-  top: auto;
-  bottom: 0;
-  padding: 1em;
-  height: 3.75em;
-  background: #eee;
-  color: #3c4a50;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
-  position: relative;
-  bottom: -88px;
-  height: 90px;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: all 0.95s;
-  transition: all 0.95s; }
-.cs-style-20 figure.effect-zoe h2 {
-  float: left; }
-.cs-style-20 figure.effect-zoe p.icon-links a {
-  float: right;
-  color: #3c4a50;
-  font-size: 1.4em; }
-.cs-style-20 figure.effect-zoe:hover p.icon-links a:hover, .cs-style-20 figure.effect-zoe:hover p.icon-links a:focus {
-  color: #252d31; }
-.cs-style-20 figure.effect-zoe p.description {
-  position: absolute;
-  bottom: 8em;
-  padding: 2em;
-  color: #fff;
-  text-transform: none;
-  font-size: 90%;
-  opacity: 0;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-  -webkit-backface-visibility: hidden;
-  /* Fix for Chrome 37.0.2062.120 (Mac) */ }
-.cs-style-20 figure.effect-zoe h2 {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 200%, 0);
-  transform: translate3d(0, 200%, 0); }
-.cs-style-20 figure.effect-zoe p.icon-links a {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 200%, 0);
-  transform: translate3d(0, 200%, 0); }
-  .cs-style-20 figure.effect-zoe p.icon-links a span::before {
-    display: inline-block;
-    padding: 8px 10px;
-    font-family: 'feathericons';
-    speak: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-.cs-style-20 .icon-eye::before {
-  content: '\e000'; }
-.cs-style-20 .icon-paper-clip::before {
-  content: '\e001'; }
-.cs-style-20 .icon-heart::before {
-  content: '\e024'; }
-.cs-style-20 figure.effect-zoe:hover figcaption {
-  opacity: 1;
-  bottom: 90px;
-  -webkit-transition: all 0.55s;
-  transition: all 0.55s; }
-.cs-style-20 figure.effect-zoe h2 {
-  display: inline-block; }
-.cs-style-20 figure.effect-zoe:hover p.description {
-  opacity: 1; }
-.cs-style-20 figure.effect-zoe:hover figcaption, .cs-style-20 figure.effect-zoe:hover h2, .cs-style-20 figure.effect-zoe:hover p.icon-links a {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-.cs-style-20 figure.effect-zoe:hover h2 {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s; }
-.cs-style-20 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s; }
-.cs-style-20 figure.effect-zoe:hover p.icon-links a:nth-child(2) {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s; }
-.cs-style-20 figure.effect-zoe:hover p.icon-links a:first-child {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s; }
+.cs-style-20 {
+  overflow: hidden;
+  max-height: 540px; }
+  .cs-style-20 figure.effect-zoe {
+    position: relative; }
+    .cs-style-20 figure.effect-zoe figcaption {
+      top: auto;
+      padding: 1em;
+      background: #eee;
+      color: #3c4a50;
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      position: absolute;
+      bottom: 90px;
+      height: 90px;
+      width: 100%;
+      opacity: 0;
+      -webkit-transition: all 0.95s;
+      transition: all 0.95s; }
+      .cs-style-20 figure.effect-zoe figcaption i {
+        margin-top: 21px;
+        padding: 8px; }
+    .cs-style-20 figure.effect-zoe h2 {
+      float: left;
+      bottom: 90px; }
+    .cs-style-20 figure.effect-zoe p.icon-links a {
+      float: right;
+      color: #3c4a50;
+      font-size: 1.4em;
+      bottom: 90px; }
+    .cs-style-20 figure.effect-zoe:hover p.icon-links a:hover, .cs-style-20 figure.effect-zoe:hover p.icon-links a:focus {
+      color: #252d31; }
+    .cs-style-20 figure.effect-zoe p.description {
+      position: absolute;
+      bottom: 8em;
+      padding: 2em;
+      color: #fff;
+      text-transform: none;
+      font-size: 90%;
+      opacity: 0;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      -webkit-backface-visibility: hidden;
+      /* Fix for Chrome 37.0.2062.120 (Mac) */ }
+    .cs-style-20 figure.effect-zoe h2 {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(0, 200%, 0);
+      transform: translate3d(0, 200%, 0); }
+    .cs-style-20 figure.effect-zoe p.icon-links a {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(0, 200%, 0);
+      transform: translate3d(0, 200%, 0); }
+      .cs-style-20 figure.effect-zoe p.icon-links a span::before {
+        display: inline-block;
+        padding: 8px 10px;
+        font-family: 'feathericons';
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+  .cs-style-20 figure.effect-zoe:hover figcaption {
+    opacity: 1;
+    bottom: 0px;
+    -webkit-transition: all 0.55s;
+    transition: all 0.55s; }
+  .cs-style-20 figure.effect-zoe h2 {
+    display: inline-block; }
+  .cs-style-20 figure.effect-zoe:hover p.description {
+    opacity: 1; }
+  .cs-style-20 figure.effect-zoe:hover figcaption, .cs-style-20 figure.effect-zoe:hover h2, .cs-style-20 figure.effect-zoe:hover p.icon-links a {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  .cs-style-20 figure.effect-zoe:hover h2 {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s; }
+  .cs-style-20 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+  .cs-style-20 figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s; }
+  .cs-style-20 figure.effect-zoe:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
 
 /*# sourceMappingURL=components.css.map */
