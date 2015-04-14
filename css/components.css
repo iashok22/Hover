@@ -980,7 +980,7 @@ xmp {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 .cs-style-13 h3, .cs-style-13 p, .cs-style-13 a {
-  bottom: 450px;
+  bottom: 490px;
   color: #fff;
   position: relative; }
 
@@ -997,7 +997,10 @@ xmp {
   .cs-style-14 figure.effect-oscar img {
     opacity: 0.9;
     -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s; }
+    transition: opacity 0.35s;
+    max-width: none;
+    width: -webkit-calc(100% + 60px);
+    width: calc(100% + 60px); }
   .cs-style-14 figure.effect-oscar figcaption {
     padding: 3em;
     background-color: rgba(58, 52, 42, 0.7);
@@ -1053,10 +1056,10 @@ xmp {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-  position: absolute;
+  position: relative;
   bottom: -88px;
   height: 90px;
-  width: 95.5%;
+  width: 100%;
   opacity: 0;
   -webkit-transition: all 0.95s;
   transition: all 0.95s; }
@@ -1105,7 +1108,7 @@ xmp {
   content: '\e024'; }
 .cs-style-20 figure.effect-zoe:hover figcaption {
   opacity: 1;
-  bottom: 0;
+  bottom: 90px;
   -webkit-transition: all 0.55s;
   transition: all 0.55s; }
 .cs-style-20 figure.effect-zoe h2 {
