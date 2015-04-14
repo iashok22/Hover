@@ -190,7 +190,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px; } }
+    width: 100%; } }
 xmp {
   background-color: #efefef;
   padding: 10px;
@@ -1390,7 +1390,7 @@ xmp {
     transform: translate3d(0, 0, 0); }
 
 /*---------------*/
-/***** ZOE *****/
+/***** .cs-style-20 *****/
 /*---------------*/
 .cs-style-20 {
   overflow: hidden;
