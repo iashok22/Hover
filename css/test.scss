@@ -1,0 +1,77 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+$primary-color: #ed4e6e;
+
+
+
+
+
+
+
+
+.cs-style-13{
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 400px
+	}
+	figure{
+		background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+		background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+		img {
+			max-width: none;
+			width: -webkit-calc(100% + 60px);
+			width: calc(100% + 60px);
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-50px, 0, 0);
+			transform: translate3d(-50px, 0, 0);
+		}
+		figcaption::before {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			bottom: 30px;
+			left: 30px;
+			border: 1px solid #fff;
+			content: '';
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-20px, 0, 0);
+			transform: translate3d(-20px, 0, 0);
+		}
+		figcaption{padding: 3em;
+			text-align: center;
+		}
+		h3 {
+			padding: 30% 0 10px 0;
+		}
+		p {
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-10px, 0, 0);
+			transform: translate3d(-10px, 0, 0);
+		}
+		&:hover {
+			img {
+				opacity: 0.7;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+
+			}
+			figcaption::before, p {
+				opacity: 1;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+		}
+	}
+	h3, p, a {
+		bottom: 490px;
+		color: #fff;
+		position: relative;
+		text-align: center;
+	}
+
+}

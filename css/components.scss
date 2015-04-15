@@ -8,15 +8,20 @@ pre{
 	background: #fff;
 }
 .navbar.is_stuck{
-	width: 100%;
+	width: 100% !important;
 	height:60px;
 	z-index: 99999;
 	background-color:#ED4E6E !important; 
 }
+nav {
+    margin-left: auto;
+    margin-right: auto;
 
-.navbar{
-	width: 100%;
 }
+.nav{
+	margin-left: 10% !important;
+}
+
 
 .navbar-default .navbar-nav > li > a {
     border: 1px solid #fff;
@@ -31,6 +36,7 @@ pre{
 	background-color: transparent !important;
 	border-color:transparent !important;
 }
+
 /*
 
 * Based on Cover by https://twitter.com/mdo"  @mdo
@@ -311,6 +317,7 @@ xmp{
 
 
 /* Caption Style 2 */
+
 .cs-style-2{
 	figure {
 		margin: 0;
@@ -323,6 +330,10 @@ xmp{
 		padding: 5px;
 		background: #333;
 		color: $primary-color;
+		text-align: center;
+		h3,p{
+			color: #fff
+		}
 	}
 	figure img {
 		z-index: 10;
@@ -332,10 +343,10 @@ xmp{
 	}
 	figure:hover img,
 	figure.cs-hover img {
-		-webkit-transform: translateY(-110px);
-		-moz-transform: translateY(-110px);
-		-ms-transform: translateY(-110px);
-		transform: translateY(-110px);
+		-webkit-transform: translateY(-120px);
+		-moz-transform: translateY(-120px);
+		-ms-transform: translateY(-120px);
+		transform: translateY(-120px);
 	}    
 	figcaption {
 		height: 135px;
@@ -362,8 +373,8 @@ xmp{
 }
 
 
-
 /* Caption Style 3 */
+
 .cs-style-3{
 	figure {
 		margin: 0;
@@ -405,6 +416,7 @@ xmp{
 		transform: scale(1.1);
 	}
 	figcaption {
+		text-align: center;
 		height: 144px;
 		width: 100%;
 		top: auto;
@@ -417,6 +429,9 @@ xmp{
 		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
 		-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 		transition: transform 0.4s, opacity 0.1s 0.3s;
+		h3,p{
+			color: #fff
+		}
 	}
 	figure:hover figcaption,
 	figure.cs-hover figcaption {
@@ -488,6 +503,7 @@ xmp{
 		transform: translateX(25%);
 	}
 	figcaption {
+		text-align: center;
 		height: 100%;
 		width: 50%;
 		opacity: 0;
@@ -509,6 +525,9 @@ xmp{
 		padding: 5px;
 		background: #333;
 		color: $primary-color;
+				h3,p{
+			color: #fff
+		}
 	}
 	figure:hover figcaption,
 	figure.cs-hover figcaption {
@@ -565,6 +584,7 @@ xmp{
 		transform: scale(0.4);
 	}
 	figcaption {
+		text-align: center;
 		height: 100%;
 		width: 100%;
 		opacity: 0;
@@ -617,8 +637,10 @@ xmp{
 		display: block;
 		position: relative;
 	}
+	h3, p{
+		color:#fff;
+	}
 }
-
 
 
 
@@ -645,6 +667,7 @@ xmp{
 		transform: translateY(-50px) scale(0.5);
 	}
 	figcaption {
+		text-align: center;
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -654,7 +677,7 @@ xmp{
 		background: #333;
 		color: $primary-color;
 		h3 {
-			margin-top: 42%;
+			margin-top: 50%;
 		}
 		a {
 			text-align: center;
@@ -673,8 +696,10 @@ xmp{
 		display: block;
 		position: relative;
 	}
+	h3,p{
+		color: #fff;
+	}
 }
-
 
 
 
@@ -689,6 +714,7 @@ xmp{
 		z-index: 12;
 	}
 	figcaption {
+		text-align: center;
 		height: 100%;
 		width: 100%;
 		opacity: 0;
@@ -710,11 +736,11 @@ xmp{
 	figure:hover figcaption,
 	figure.cs-hover figcaption {
 		opacity: 1;
-		height: 130%;
+		height: 140%;
 		box-shadow: 0 0 0 10px $primary-color;
 	}
 	figcaption h3 {
-		margin-top: 68%;
+		margin-top: 77%;
 	}
 	figcaption h3,
 	figcaption span,
@@ -751,8 +777,10 @@ xmp{
 		display: block;
 		position: relative;
 	}
+	h3,p{
+		color: #fff;
+	}
 }
-
 
 /* Caption Style 8 */
 .cs-style-8{
@@ -811,6 +839,7 @@ xmp{
 
 
 /* Caption Style 9 */
+
 .cs-style-9{
 	figure {
 		margin: 0;
@@ -845,6 +874,21 @@ xmp{
 	figure:hover figcaption, .cs-style-9 figure.cs-hover figcaption{
 		opacity: .8;
 	}
+			a {
+			margin-top: 30px;
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display: block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+		}
+		h3,p{
+			color: #fff;
+		}
 
 }
 
@@ -857,6 +901,7 @@ xmp{
 		position: relative;
 	}
 	figcaption {
+		text-align: center;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -955,6 +1000,7 @@ xmp{
 		position: relative;
 	}
 	figcaption {
+		text-align: center;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -1109,7 +1155,11 @@ xmp{
 		overflow: hidden;
 		position: relative;
 	}
-	figure.effect-sadie {
+	figure{
+		figcaption{
+			text-align: center;
+		}
+
 		figcaption::before {
 			position: absolute;
 			top: 0;
@@ -1126,10 +1176,10 @@ xmp{
 		}
 		h3 {
 			position: absolute;
-			top: 60%;
+			top: 55%;
 			left: 0;
 			width: 100%;
-			color: #484c61;
+			color: #fff;
 			-webkit-transition: -webkit-transform 0.35s, color 0.35s;
 			-moz-transition: -moz-transform 0.35s, color 0.35s;
 			transition: transform 0.35s, color 0.35s;
@@ -1163,7 +1213,7 @@ xmp{
 			right:0;
 			bottom:0;
 			left:0;
-			opacity:.1;	
+			opacity:0;	
 		}
 		&:hover {
 
@@ -1185,24 +1235,21 @@ xmp{
 			}
 			figcaption::before, a{
 				color: green;
-				opacity:.5;
+				opacity:0;
 			}
 		}
 	}
 }
-
-
 /*---------------*/
 /***** Roxy *****/
 /*---------------*/
-
 .cs-style-13{
 	figure{
 		overflow: hidden;
 		position: relative;
 		max-height: 400px
 	}
-	figure.effect-roxy {
+	figure{
 		background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 		background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 		img {
@@ -1229,7 +1276,7 @@ xmp{
 			transform: translate3d(-20px, 0, 0);
 		}
 		figcaption{padding: 3em;
-			text-align: left;
+			text-align: center;
 		}
 		h3 {
 			padding: 30% 0 10px 0;
@@ -1259,6 +1306,7 @@ xmp{
 		bottom: 490px;
 		color: #fff;
 		position: relative;
+		text-align: center;
 	}
 
 }
@@ -1274,7 +1322,7 @@ xmp{
 		position: relative;
 		max-height: 380px
 	}
-	figure.effect-oscar {
+	figure {
 		background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 		background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 		img {
@@ -1290,6 +1338,7 @@ xmp{
 			background-color: rgba(58, 52, 42, 0.7);
 			-webkit-transition: background-color 0.35s;
 			transition: background-color 0.35s;
+			text-align: center;
 			&::before {
 				position: absolute;
 				top: 30px;
@@ -1353,7 +1402,7 @@ xmp{
 		position: relative;
 		max-height: 380px
 	}
-figure.effect-bubba {
+figure{
   background: #9e5406;
   img {
     opacity: 1;
@@ -1364,6 +1413,7 @@ figure.effect-bubba {
     opacity: 0.4;
   }
   figcaption {
+  	text-align: center;
     &::before, &::after {
       position: absolute;
       top: 30px;
@@ -1437,7 +1487,7 @@ figure.effect-bubba {
 		position: relative;
 		max-height: 380px
 	}
-figure.effect-layla {
+figure{
 	a{
 			text-align: center;
 			position: absolute;
@@ -1453,6 +1503,7 @@ figure.effect-layla {
 
   figcaption {
     padding: 3em;
+    text-align: center;
     &::before, &::after {
       position: absolute;
       content: '';
@@ -1550,7 +1601,7 @@ figure.effect-layla {
 /***** Marley *****/
 /*---------------*/
 .cs-style-17{
-figure.effect-marley {
+figure{
   figcaption {
     text-align: right;
   }
@@ -1780,9 +1831,9 @@ figure {
 /*---------------*/
 .cs-style-20{
 	overflow: hidden;
-	max-height: 540px;
 
-	figure.effect-zoe {
+
+	figure {
 		position: relative;
 		figcaption {
 			top: auto;
@@ -1856,7 +1907,7 @@ p.icon-links a {
 }
 
 
-figure.effect-zoe:hover figcaption{
+figure:hover figcaption{
 	opacity: 1;
 	bottom: 0px;
 	-webkit-transition:all 0.55s;
@@ -1864,7 +1915,7 @@ figure.effect-zoe:hover figcaption{
 
 }
 
-figure.effect-zoe {
+figure {
 	h2 {
 		display: inline-block;
 	}
