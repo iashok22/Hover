@@ -10,10 +10,15 @@ pre{
 .cs-style-1{
 	margin-bottom: 20px;
 }
+.lead{
+	display: inline-block !important;
+}
 
 .content{
 	background: #fff;
 }
+
+
 .navbar.is_stuck{
 	width: 100% !important;
 	height:60px;
@@ -25,15 +30,22 @@ nav {
     margin-right: auto;
 
 }
-.nav{
-	margin-left: 10% !important;
+
+.nav.navbar-nav a {
+    padding: 14px !important;
+}
+.navbar-nav{
+margin-right: 100px;
+}
+.btn-group-lg > .btn, .btn-lg{
+	margin-top: 6px;
 }
 
 
 .navbar-default .navbar-nav > li > a {
     border: 1px solid #fff;
     color: #fff !important;
-    margin: 3px;
+    margin: 2px;
 }
 .navbar-default .navbar-nav > li > a:hover li {
     background-color: #A3364B
