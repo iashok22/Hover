@@ -3,6 +3,13 @@ $primary-color: #ed4e6e;
 pre{
 	height: 373px;
 }
+.col-md-2, .col-md-3, .col-md-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.cs-style-1{
+	margin-bottom: 20px;
+}
 
 .content{
 	background: #fff;
@@ -282,6 +289,7 @@ xmp{
 		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 		-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 		transition: transform 0.3s, opacity 0.3s;
+		z-index: 99;
 		h3 {
 			margin-top: 70px;
 		}
