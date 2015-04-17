@@ -1,6 +1,6 @@
 
-Caption Hover Effects
+Easy Hover Effects
 =========
-A tutorial on how to create some subtle and modern caption hover effects.
-
-[demo](http://tympanus.net/Tutorials/CaptionHoverEffects/)
+The same HTML for all hover style.
+Just add the SCSS.
+Done!
