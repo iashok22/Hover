@@ -692,6 +692,10 @@ xmp {
 .cs-style-9 figure {
   margin: 0;
   position: relative; }
+.cs-style-9 img {
+  max-width: 100%;
+  display: block;
+  position: relative; }
 .cs-style-9 figcaption {
   position: absolute;
   top: 0;
@@ -721,13 +725,11 @@ xmp {
 .cs-style-9 a {
   margin-top: 30px;
   text-align: center;
-  padding: 9px 24px;
   border-radius: 2px;
   display: block;
-  background: #ed4e6e;
   color: #fff;
   text-decoration: none;
-  width: 40%;
+  width: 100%;
   margin: auto; }
 .cs-style-9 h3, .cs-style-9 p {
   color: #fff; }
@@ -1014,8 +1016,14 @@ xmp {
   position: relative;
   max-height: 400px; }
 .cs-style-13 figure {
-  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%); }
+  background: #ed4e6e;
+  background: -moz-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ed4e6e), color-stop(52%, rgba(235, 123, 147, 0.53)), color-stop(100%, rgba(235, 183, 195, 0.05)));
+  background: -webkit-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+  background: -o-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+  background: -ms-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+  background: linear-gradient(to right, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4e6e', endColorstr='#ebb7c3', GradientType=1 ); }
   .cs-style-13 figure img {
     max-width: none;
     width: -webkit-calc(100% + 60px);
@@ -1073,8 +1081,14 @@ xmp {
     position: relative;
     max-height: 380px; }
   .cs-style-14 figure {
-    background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-    background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%); }
+    background: #ed4e6e;
+    background: -moz-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #ed4e6e), color-stop(52%, rgba(235, 123, 147, 0.53)), color-stop(100%, rgba(235, 183, 195, 0.05)));
+    background: -webkit-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+    background: -o-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+    background: -ms-linear-gradient(left, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+    background: linear-gradient(to right, #ed4e6e 0%, rgba(235, 123, 147, 0.53) 52%, rgba(235, 183, 195, 0.05) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4e6e', endColorstr='#ebb7c3', GradientType=1 ); }
     .cs-style-14 figure img {
       opacity: 0.9;
       -webkit-transition: opacity 0.35s;
@@ -1135,7 +1149,7 @@ xmp {
     position: relative;
     max-height: 380px; }
   .cs-style-15 figure {
-    background: #9e5406; }
+    background: #ED4E6E; }
     .cs-style-15 figure img {
       opacity: 1;
       -webkit-transition: opacity 0.35s;
@@ -1460,7 +1474,7 @@ xmp {
     .cs-style-20 figure figcaption {
       top: auto;
       padding: 1em;
-      background: #eee;
+      background: #ED4E6E;
       color: #3c4a50;
       -webkit-transition: -webkit-transform 0.35s;
       transition: transform 0.35s;
