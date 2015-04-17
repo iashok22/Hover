@@ -41,7 +41,7 @@ nav {
 .navbar-default .navbar-nav > li > a {
   border: 1px solid #fff;
   color: #fff !important;
-  margin: 2px; }
+  margin: 1px; }
 
 .navbar-default .navbar-nav > li > a:hover li {
   background-color: #A3364B; }
