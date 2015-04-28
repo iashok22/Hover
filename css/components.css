@@ -6,13 +6,6 @@
 pre {
   height: 373px; }
 
-.col-md-2, .col-md-3, .col-md-4 {
-  padding-left: 0;
-  padding-right: 0; }
-
-.cs-style-1 {
-  margin-bottom: 20px; }
-
 .content {
   background: #fff; }
 
@@ -234,8 +227,7 @@ xmp {
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  z-index: 99; }
+  transition: transform 0.3s, opacity 0.3s; }
   .cs-style-1 figcaption h3 {
     margin-top: 70px; }
   .cs-style-1 figcaption p {
