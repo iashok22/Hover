@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Caption Hover Effects - Demo 1</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+		<link rel="stylesheet" type="text/css" href="css/components.css" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
+<script src="js/modernizr.custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/stickykit.js"></script>
+
+	</head>
+	<body>
+
+	<div class="site-wrapper" >
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      
+
+      <div class="inner cover" >
+        <h1 class="cover-heading">Hover Effects</h1>
+
+        <p class="lead">Add the HTML and choose your hover and copy the CSS. Thats it.</p>
+		<div class="clearfix"></div>
+        <p class="lead"><a class="btn btn-lg btn-info" href="#">View On Github</a></p>
+
+
+
+      </div>
+      <nav class="navbar navbar-default navbar-fixed">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse " id="navbar">
+        	     	<div class="pull-left">
+
+        <p class="lead"><a class="btn btn-lg btn-info" href="#how">HOW TO</a></p>
+        <p class="lead"><a class="btn btn-lg btn-info" href="#style1">STYLES</a></p>
+</div>
+          <ul class="nav navbar-nav">
+
+            <li><a href="#style1">1</a></li>
+            <li><a href="#style2">2</a></li>
+            <li><a href="#style3">3</a></li>
+            <li><a href="#style4">4</a></li>
+            <li><a href="#style5">5</a></li>
+            <li><a href="#style6">6</a></li>
+            <li><a href="#style7">7</a></li>
+            <li><a href="#style8">8</a></li>
+            <li><a href="#style9">9</a></li>
+            <li><a href="#style10">10</a></li>
+            <li><a href="#style11">11</a></li>
+            <li><a href="#style12">12</a></li>
+            <li><a href="#style13">13</a></li>
+            <li><a href="#style14">14</a></li>
+            <li><a href="#style15">15</a></li>
+            <li><a href="#style16">16</a></li>
+            <li><a href="#style17">17</a></li>
+            <li><a href="#style18">18</a></li>
+			<li><a href="#style19">19</a></li>
+             <li><a href="#style20">20</a></li>              
+     	</ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    </div>
+</div>
+</div>
+	<div class="container-fluid" id="how">
+	    <div class="row">
+	        <div class="jumbotron">
+	            <h1>How to use</h1>
+	        </div>
+	    </div>
+	</div>
+	
+		
+
+			<div class="container content">
+						<div class="row grid cs-style-1" >
+				<div class="col-md-11 col-md-offset-1 ">
+            <h2>1. Add This HTML</h2>
+				
+					<xmp>
+<div class="row grid cs-style-1">
+  <div class="col-md-6 col-sm-6">
+   <figure>
+    <img class="img-responsive" src="images/Bob.jpg" alt="img01">
+    <figcaption>
+     <h3 class="text-center">Bob Dylan</h3>
+     <p class="text-center">Once upon a time</p>
+     <a href="#">Rolling Stone</a>
+    </figcaption>
+   </figure>
+  </div>
+  <div class="col-md-6 col-sm-6">
+   <figure>
+   <img class="img-responsive" src="images/Bob.jpg" alt="img01">
+   <figcaption>
+    <h3 class="text-center">Bob Dylan</h3>
+    <p class="text-center">Once upon a time</p>
+    <a href="#">Rolling Stone</a>
+   </figcaption>
+   </figure>
+  </div>
+</div>
+				
+					</xmp>
+                      
+                       <h2>2. Choose Hover Style from below e.g. Style 7</h2>
+					       
+<h2>3. Add CSS from that style</h2>
+           <xmp>
+.cs-style-7{
+    figure img {
+	z-index: 12;
+    }
+    figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+    position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	background: #333;
+	color: $primary-color;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	box-shadow: 0 0 0 0px #2c3f52;
+    z-index: 11;
+    }
+    figure:hover figcaption,
+    figure.cs-hover figcaption {
+	opacity: 1;
+	height: 130%;
+	box-shadow: 0 0 0 10px $primary-color;
+    }
+    figcaption h3 {
+	margin-top: 68%;
+    }
+    figcaption h3,
+    figcaption span,
+    figcaption a {
+	opacity: 0;
+	-webkit-transition: opacity 0s;
+	-moz-transition: opacity 0s;
+	transition: opacity 0s;
+    }
+    figure:hover figcaption h3,
+    figure:hover figcaption span,
+    figure:hover figcaption a,
+    figure.cs-hover figcaption h3,
+    figure.cs-hover figcaption span,
+    figure.cs-hover figcaption a {
+	-webkit-transition: opacity 0.3s 0.2s;
+	-moz-transition: opacity 0.3s 0.2s;
+	transition: opacity 0.3s 0.2s;
+	opacity: 1;
+    }
+    figcaption a {
+	text-align: center;
+	padding: 9px 24px;
+	border-radius: 2px;
+	display:block;
+	background: $primary-color;
+	color: #fff;
+    text-decoration: none;
+    width: 40%;
+    margin: auto;
+}
+}
+				
+					</xmp>      
+            <h2>4. Change <b>cs-style-1</b> in HTML line 1 to match your style e.g cs-style-7</h2>
+            <h2>5. Done! </h2> 
+
+				</div>
+                </div>
+			
+			<div class="row grid cs-style-1 scroll" id="style1">
+			<h2 class="text-center">Style1</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<pre><code class="css">
+
+.cs-style-1{
+	figure {
+		margin: 0;
+		position: relative;
+		}
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: rgba(0,0,0,.7);
+		color: $primary-color;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		text-align: center;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+		-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+		transition: transform 0.3s, opacity 0.3s;
+		z-index: 99;
+		h3 {
+			margin-top: 70px;
+			}
+		p{
+			color: #fff;
+			}
+		a {
+			margin-top: 30px;
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display: block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+			}
+		}
+	figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption{
+		opacity: 1;
+		-webkit-transform: translate(15px, 15px);
+		-moz-transform: translate(15px, 15px);
+		-ms-transform: translate(15px, 15px);
+		transform: translate(15px, 15px);
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+}
+
+
+					</code></pre>
+				</div>
+                </div>
+                        <div class="row grid cs-style-2 scroll" id="style2">
+                        <h2 class="text-center">Style2</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a class="text-center"  href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+<pre><code class="css">
+.cs-style-2{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+		text-align: center;
+		h3,p{
+			color: #fff
+		}
+	}
+	figure img {
+		z-index: 10;
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: translateY(-120px);
+		-moz-transform: translateY(-120px);
+		-ms-transform: translateY(-120px);
+		transform: translateY(-120px);
+	}    
+	figcaption {
+		height: 135px;
+		width: 100%;
+		top: auto;
+		bottom: 0;
+		a {
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display:block;
+			background: #ED4E6E;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+		}
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+}
+					</code></pre>
+				</div>
+				
+				</div>
+                
+
+            
+				
+				<div class="row grid cs-style-3" id="style3">
+				<h2 class="text-center">Style3</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+				<pre><code class="css">
+.cs-style-3{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: rgba(21,21,21,.7);
+		color: $primary-color;
+		a {
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display:block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+		}
+	}
+
+	figure {
+		overflow: hidden;
+	}
+	figure img {
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	figcaption {
+		text-align: center;
+		height: 144px;
+		width: 100%;
+		top: auto;
+		bottom: 0;
+		opacity: 0;
+		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		transform: translateY(100%);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+		transition: transform 0.4s, opacity 0.1s 0.3s;
+		h3,p{
+			color: #fff
+		}
+	}
+	figure:hover figcaption,
+	figure.cs-hover figcaption {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+		transition: transform 0.4s, opacity 0.1s;
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	@media screen and (1024) {
+		.cs-style-3 figcaption a {
+			text-align: center;
+			padding: 5px 24px;
+			border-radius: 2px;
+			display: inline-block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+            </code></pre>
+				</div>
+				</div>
+				
+				<div class="row grid cs-style-4" id="style4">
+				<h2 class="text-center">Style4</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+				<pre><code class="css">
+.cs-style-4{ 
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	.col-md-6{
+		overflow: hidden;
+	}
+	li {
+		-webkit-perspective: 1700px;
+		-moz-perspective: 1700px;
+		perspective: 1700px;
+		-webkit-perspective-origin: 0 50%;
+		-moz-perspective-origin: 0 50%;
+		perspective-origin: 0 50%;
+	}
+	figure {
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	figure > div {
+		overflow: hidden;
+	}
+	figure img {
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: translateX(25%);
+		-moz-transform: translateX(25%);
+		-ms-transform: translateX(25%);
+		transform: translateX(25%);
+	}
+	figcaption {
+		text-align: center;
+		height: 100%;
+		width: 50%;
+		opacity: 0;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		transform-origin: 0 0;
+		-webkit-transform: rotateY(-90deg);
+		-moz-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+		transition: transform 0.4s, opacity 0.1s 0.3s;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+				h3,p{
+			color: #fff
+		}
+	}
+	figure:hover figcaption,
+	figure.cs-hover figcaption {
+		opacity: 1;
+		-webkit-transform: rotateY(0deg);
+		-moz-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+		transition: transform 0.4s, opacity 0.1s;
+	}
+	a{
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		padding: 9px 24px;
+		border-radius: 2px;
+		display:block;
+		background: $primary-color;
+		color: #fff;
+		text-decoration: none;
+		margin: auto;
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+}
+            </code></pre>
+				</div>
+				</div>
+				
+								<div class="row grid cs-style-5" id="style5">
+								<h2 class="text-center">Style5</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center"  >Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+<pre><code class="css">
+/* Caption Style 5 */
+.cs-style-5{
+    figure {
+	margin: 0;
+	position: relative;
+	}
+    figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+    }
+    figure:hover img,
+    figure.cs-hover img {
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transform: scale(0.4);
+    }
+    figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	background: #333;
+	color: $primary-color;
+    }
+     figure:hover figcaption,
+     figure.cs-hover figcaption {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+    }
+    a{
+    position: absolute;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    }
+    a {
+	text-align: center;
+	padding: 9px 24px;
+	border-radius: 2px;
+	display:block;
+	background: $primary-color;
+	color: #fff;
+    text-decoration: none;
+    width: 40%;
+    margin: auto;
+	}
+    img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+}
+            </code></pre>
+				</div>
+				</div>
+				
+												<div class="row grid cs-style-6" id="style6">
+												<h2 class="text-center">Style6</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+<pre><code class="css">
+.cs-style-6{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figure img {
+		z-index: 10;
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: translateY(-50px) scale(0.5);
+		-moz-transform: translateY(-50px) scale(0.5);
+		-ms-transform: translateY(-50px) scale(0.5);
+		transform: translateY(-50px) scale(0.5);
+	}
+	figcaption {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+		h3 {
+			margin-top: 50%;
+		}
+		a {
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display:block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+		}    
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	h3,p{
+		color: #fff;
+	}
+}
+
+            </code></pre>
+				</div>
+				</div>
+				
+        <div class="row grid cs-style-7" id="style7">
+        <h2 class="text-center">Style7</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+<pre><code class="css">
+.cs-style-7{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figure img {
+		z-index: 12;
+	}
+	figcaption {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+		-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+		transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+		box-shadow: 0 0 0 0px #2c3f52;
+		z-index: 11;
+	}
+	figure:hover figcaption,
+	figure.cs-hover figcaption {
+		opacity: 1;
+		height: 140%;
+		box-shadow: 0 0 0 10px $primary-color;
+	}
+	figcaption h3 {
+		margin-top: 77%;
+	}
+	figcaption h3,
+	figcaption span,
+	figcaption a {
+		opacity: 0;
+		-webkit-transition: opacity 0s;
+		-moz-transition: opacity 0s;
+		transition: opacity 0s;
+	}
+	figure:hover figcaption h3,
+	figure:hover figcaption span,
+	figure:hover figcaption a,
+	figure.cs-hover figcaption h3,
+	figure.cs-hover figcaption span,
+	figure.cs-hover figcaption a {
+		-webkit-transition: opacity 0.3s 0.2s;
+		-moz-transition: opacity 0.3s 0.2s;
+		transition: opacity 0.3s 0.2s;
+		opacity: 1;
+	}
+	figcaption a {
+		text-align: center;
+		padding: 9px 24px;
+		border-radius: 2px;
+		display:block;
+		background: $primary-color;
+		color: #fff;
+		text-decoration: none;
+		width: 40%;
+		margin: auto;
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	h3,p{
+		color: #fff;
+	}
+}
+
+            </code></pre>
+				</div>
+				</div>
+				
+				                <div class="row grid cs-style-8" id="style8">
+				                <h2 class="text-center">Style8</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+						
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<pre><code class="css">
+.cs-style-8{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		text-align: center;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+		-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+		transition: transform 0.3s, opacity 0.3s;
+		h3 {
+			margin-top: 70px;
+		}
+		p{
+			color: #fff;
+		}
+		a {
+			margin-top: 30px;
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display: block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+		}
+	}
+	figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption{
+		opacity: 1;
+
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+}
+					</code></pre>
+				</div>
+                </div>
+				
+				
+				
+				
+				        <div class="row grid cs-style-9" id="style9">
+				        <h2 class="text-center">Style9</h2>
+				                    <h3>For Icon Hover change :</h3>
+            
+<xmp>
+<figcaption>
+    <h3 class="text-center">Bob Dylan</h3>
+    <p class="text-center">Once upon a time</p>
+    <a href="#">Rolling Stone</a>
+</figcaption>
+</xmp> 
+            <h3>To this :</h3> 
+<xmp>
+<figcaption>
+    <i class="fa fa-3x fa-search"></i>
+</figcaption>
+</xmp>         
+				<div class="col-md-6 col-sm-6">
+					<a href=""><figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+							<i class="fa fa-3x fa-search"></i>
+
+						</figcaption>
+					</figure>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-6">
+				<pre><code class="css">
+.cs-style-9{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+		img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		background: #333;
+		color: $primary-color;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		text-align: center;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+		-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+		transition: transform 0.3s, opacity 0.3s;
+		i {
+			left: 0;
+			margin-left: 0;
+			margin-right: 0;
+			position: absolute;
+			right: 0;
+			top:44%;
+		}
+	}
+	figure:hover figcaption, .cs-style-9 figure.cs-hover figcaption{
+		opacity: .8;
+	}
+		a {
+			margin-top: 30px;
+			text-align: center;
+			border-radius: 2px;
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			width: 100%;
+			margin: auto;
+		}
+		h3,p{
+			color: #fff;
+		}
+
+}
+</code></pre>			
+				</div>
+				</div>
+				
+				
+<div class="row grid cs-style-10" id="style10">
+				<h2 class="text-center">Style10</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+				<pre><code class="css">
+.cs-style-10{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figcaption {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom:0;
+		padding: 5px;
+		color: $primary-color;
+		a {
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display:block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+			opacity:0;
+		}
+		h3{
+			color:#fff;
+			font-size: 30px;
+			margin-top: 125px;
+		}
+		p{
+			color: #efefef;
+		}
+	}
+
+	figure {
+		overflow: hidden;
+	}
+	figure img {
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	figure:hover a{
+		opacity: 1;
+	}
+	figcaption {
+		height: 100%;
+		width: 100%;
+		top: auto;
+
+		opacity: 1;
+		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		transform: translateY(100%);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+		transition: transform 0.4s, opacity 0.1s 0.3s;
+	}
+	figure:hover figcaption,
+	figure.cs-hover figcaption {
+		opacity: 1;
+		background-color: rgba(21,21,21,.6);
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+		transition: transform 0.4s, opacity 0.1s;
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	@media screen and (1024) {
+		.cs-style-3 figcaption a {
+			text-align: center;
+			padding: 5px 24px;
+			border-radius: 2px;
+			display: inline-block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+            </code></pre>
+				</div>
+				</div>
+						
+						
+<div class="row grid cs-style-11" id="style11">
+				<h2 class="text-center">Style11</h2>
+				<div class="col-md-6 col-sm-6">
+					<figure>
+						<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+						<figcaption>
+							<h3 class="text-center">Bob Dylan</h3>
+							<p class="text-center">Once upon a time</p>
+							<a href="#">Rolling Stone</a>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-md-6 col-sm-6">
+				<pre><code class="css">
+.cs-style-11{
+	figure {
+		margin: 0;
+		position: relative;
+	}
+	figcaption {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom:0;
+		padding: 5px;
+		color: $primary-color;
+		a {
+			text-align: center;
+			padding: 9px 24px;
+			border-radius: 2px;
+			display:block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+			width: 40%;
+			margin: auto;
+			opacity:0;
+		}
+		h3{
+			color:#fff;
+			font-size: 35px;
+			margin-top: 295px;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+
+		}
+		p{
+			color: #efefef;
+			opacity: 0;
+		}
+	}
+
+	figure {
+		overflow: hidden;
+	}
+	figure img {
+		-webkit-transition: -webkit-transform 0.4s;
+		-moz-transition: -moz-transform 0.4s;
+		transition: transform 0.4s;
+	}
+	figure:hover img,
+	figure.cs-hover img {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	figure:hover p, figure:hover a{
+		opacity: 1;
+	}
+	figure:hover h3{
+		margin-top: 150px;
+	}
+	figcaption {
+		height: 100%;
+		width: 100%;
+		top: auto;
+
+		opacity: 1;
+
+	}
+	figure:hover figcaption,
+	figure.cs-hover figcaption {
+		opacity: 1;
+		background-color: rgba(21,21,21,.6);
+
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		position: relative;
+	}
+	@media screen and (1024) {
+		.cs-style-3 figcaption a {
+			text-align: center;
+			padding: 5px 24px;
+			border-radius: 2px;
+			display: inline-block;
+			background: $primary-color;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+            </code></pre>
+				</div>
+				</div>
+
+
+
+
+
+				<div class="row grid cs-style-12" id="style12">
+					<h2 class="text-center">Style12</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="text-center">Bob Dylan</h3>
+								<p class="text-center">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-12{
+	figure{
+		overflow: hidden;
+		position: relative;
+	}
+	figure{
+		figcaption{
+			text-align: center;
+		}
+
+		figcaption::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height:100%;
+			background: -webkit-linear-gradient(top, rgba(72, 76, 77, 0) 0%, rgba(72, 76, 77, 0.4) 75%);
+			background: linear-gradient(to bottom, rgba(72, 76, 77, 0) 0%, rgba(72, 76, 77, 0.4) 75%);
+			content: '';
+			opacity: 0;
+			-webkit-transform: translate3d(0, 50%, 0);
+			-moz-transform: translate3d(0, 50%, 0);
+			transform: translate3d(0, 50%, 0);
+		}
+		h3 {
+			position: absolute;
+			top: 55%;
+			left: 0;
+			width: 100%;
+			color: #fff;
+			-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+			-moz-transition: -moz-transform 0.35s, color 0.35s;
+			transition: transform 0.35s, color 0.35s;
+			-webkit-transform: translate3d(0, -50%, 0);
+			-moz-transform: translate3d(0, -50%, 0);
+			transform: translate3d(0, -50%, 0);
+		}
+		figcaption::before {
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+		}
+		p,a {
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			position: absolute;
+			bottom: 120px;
+			left: 0;
+			padding: 2em;
+			width: 100%;
+			opacity: 0;
+			-webkit-transform: translate3d(0, 10px, 0);
+			transform: translate3d(0, 10px, 0);
+		}
+		a{
+			text-align: center;
+			position: absolute;
+			background:#1a1a1a;
+			color: #fff;
+			text-decoration: none;
+			top: -10px;
+			right:0;
+			bottom:0;
+			left:0;
+			opacity:0;	
+		}
+		&:hover {
+
+			h3 {
+				color: #fff;
+				-webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+				-moz-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+				transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+				z-index: 100;
+				pointer-events:none;
+			}
+			figcaption::before, p {
+				color: #fff;
+				opacity:1;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+				z-index: 100;
+				pointer-events:none;
+			}
+			figcaption::before, a{
+				color: green;
+				opacity:0;
+			}
+		}
+	}
+}
+						</code></pre>
+					</div>
+				</div>
+                        
+                        
+                        
+				<div class="row grid cs-style-13" id="style13">
+					<h2 class="text-center">Style13</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="text-center">Bob Dylan</h3>
+								<p class="text-center">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-13{
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 400px
+	}
+	figure{
+		background: rgba(237,78,110,1);
+		background: -moz-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(237,78,110,1)), color-stop(52%, rgba(235,123,147,0.53)), color-stop(100%, rgba(235,183,195,0.05)));
+		background: -webkit-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+		background: -o-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+		background: -ms-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+		background: linear-gradient(to right, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4e6e', endColorstr='#ebb7c3', GradientType=1 );
+		img {
+			max-width: none;
+			width: -webkit-calc(100% + 60px);
+			width: calc(100% + 60px);
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-50px, 0, 0);
+			transform: translate3d(-50px, 0, 0);
+		}
+		figcaption::before {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			bottom: 30px;
+			left: 30px;
+			border: 1px solid #fff;
+			content: '';
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-20px, 0, 0);
+			transform: translate3d(-20px, 0, 0);
+		}
+		figcaption{padding: 3em;
+			text-align: center;
+		}
+		h3 {
+			padding: 30% 0 10px 0;
+		}
+		p {
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: translate3d(-10px, 0, 0);
+			transform: translate3d(-10px, 0, 0);
+		}
+		&:hover {
+			img {
+				opacity: 0.7;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+
+			}
+			figcaption::before, p {
+				opacity: 1;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+		}
+	}
+	h3, p, a {
+		bottom: 490px;
+		color: #fff;
+		position: relative;
+		text-align: center;
+	}
+
+}
+
+						</code></pre>
+					</div>
+				</div>
+                       
+                       
+                    <div class="row grid cs-style-14" id="style14">
+					<h2 class="text-center">Style14</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="text-center">Bob Dylan</h3>
+								<p class="text-center">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-14{
+	max-height: 540px;
+	overflow: hidden;
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 380px
+	}
+	figure {	
+	background: rgba(237,78,110,1);
+	background: -moz-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(237,78,110,1)), color-stop(52%, rgba(235,123,147,0.53)), color-stop(100%, rgba(235,183,195,0.05)));
+	background: -webkit-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+	background: -o-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+	background: -ms-linear-gradient(left, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+	background: linear-gradient(to right, rgba(237,78,110,1) 0%, rgba(235,123,147,0.53) 52%, rgba(235,183,195,0.05) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4e6e', endColorstr='#ebb7c3', GradientType=1 );
+		img {
+			opacity: 0.9;
+			-webkit-transition: opacity 0.35s;
+			transition: opacity 0.35s;
+			max-width: none;
+			width: -webkit-calc(100% + 60px);
+			width: calc(100% + 60px);
+		}
+		figcaption {
+			padding: 3em;
+			background-color: rgba(58, 52, 42, 0.7);
+			-webkit-transition: background-color 0.35s;
+			transition: background-color 0.35s;
+			text-align: center;
+			&::before {
+				position: absolute;
+				top: 30px;
+				right: 30px;
+				bottom: 30px;
+				left: 30px;
+				border: 1px solid #fff;
+				content: '';
+			}
+		}
+		h2 {
+			margin: 20% 0 10px 0;
+			-webkit-transition: -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			-webkit-transform: translate3d(0, 100%, 0);
+			transform: translate3d(0, 100%, 0);
+		}
+		figcaption::before, p {
+			opacity: 0;
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+			transition: opacity 0.35s, transform 0.35s;
+			-webkit-transform: scale(0);
+			transform: scale(0);
+		}
+		&:hover {
+			h2 {
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+			figcaption::before, p {
+				opacity: 1;
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+			figcaption {
+				background-color: rgba(58, 52, 42, 0);
+			}
+			img {
+				opacity: 0.4;
+			}
+		}
+	}
+	h3, p, a {
+		bottom: 290px;
+		color: #fff;
+		position: relative;
+	}
+}
+						</code></pre>
+					</div>
+				</div>
+
+				                    <div class="row grid cs-style-15" id="style15">
+					<h2 class="text-center">Style15</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="text-center">Bob Dylan</h3>
+								<p class="text-center">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-15{
+		max-height: 540px;
+	overflow: hidden;
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 380px
+	}
+	figure{
+	  background: #ED4E6E;
+	  img {
+	    opacity: 1;
+	    -webkit-transition: opacity 0.35s;
+	    transition: opacity 0.35s;
+	  }
+	  &:hover img {
+	    opacity: 0.4;
+	  }
+	  figcaption {
+	  	text-align: center;
+	    &::before, &::after {
+	      position: absolute;
+	      top: 30px;
+	      right: 30px;
+	      bottom: 30px;
+	      left: 30px;
+	      content: '';
+	      opacity: 0;
+	      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	      transition: opacity 0.35s, transform 0.35s;
+	    }
+	    &::before {
+	      border-top: 1px solid #fff;
+	      border-bottom: 1px solid #fff;
+	      -webkit-transform: scale(0, 1);
+	      transform: scale(0, 1);
+	    }
+	    &::after {
+	      border-right: 1px solid #fff;
+	      border-left: 1px solid #fff;
+	      -webkit-transform: scale(1, 0);
+	      transform: scale(1, 0);
+	    }
+	  }
+	  h3 {
+	    padding-top: 30%;
+	    -webkit-transition: -webkit-transform 0.35s;
+	    transition: transform 0.35s;
+	    -webkit-transform: translate3d(0, -20px, 0);
+	    transform: translate3d(0, -20px, 0);
+	  }
+	  p {
+	    padding: 20px 2.5em;
+	    opacity: 0;
+	    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	    transition: opacity 0.35s, transform 0.35s;
+	    -webkit-transform: translate3d(0, 20px, 0);
+	    transform: translate3d(0, 20px, 0);
+	  }
+  &:hover {
+    figcaption {
+      &::before, &::after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+    h3, p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+	bottom: 390px;
+	color: #fff;
+	position: relative;
+
+    }
+  }
+}
+}
+						</code></pre>
+					</div>
+				</div>
+								                    <div class="row grid cs-style-16" id="style16">
+					<h2 class="text-center">Style16</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="text-center">BOB <b>DYLAN</b></h3>
+								<p class="text-center">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-16{
+
+	max-height: 540px;
+	overflow: hidden;
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 380px
+	}
+	figure{
+		a{
+		text-align: center;
+		position: absolute;
+		color: #fff;
+		text-decoration: none;
+		top: -10px;
+		right:0;
+		bottom:0;
+		left:0;
+		opacity:.1;	
+		z-index: 1000;
+		}
+  figcaption {
+    padding: 3em;
+    text-align: center;
+    &::before, &::after {
+      position: absolute;
+      content: '';
+      opacity: 0;
+    }
+    &::before {
+      top: 50px;
+      right: 30px;
+      bottom: 50px;
+      left: 30px;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+    }
+    &::after {
+      top: 30px;
+      right: 50px;
+      bottom: 30px;
+      left: 50px;
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+      -webkit-transform: scale(1, 0);
+      transform: scale(1, 0);
+      -webkit-transform-origin: 100% 0;
+      transform-origin: 100% 0;
+    }
+  }
+  h3 {
+    padding-top: 26%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+  }
+  p {
+    padding: 0.5em 2em;
+    text-transform: none;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  img, h3 {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  figcaption {
+    &::before, &::after {
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+    }
+  }
+  p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  &:hover {
+    img {
+      opacity: 0.7;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    figcaption {
+      &::before, &::after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+    h3, p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+	bottom: 390px;
+	color: #fff;
+	position: relative;
+
+    }
+    figcaption::after, h3, p, img {
+      -webkit-transition-delay: 0.15s;
+      transition-delay: 0.15s;
+    }
+  }
+}
+}
+						</code></pre>
+					</div>
+				</div>
+
+
+												                    <div class="row grid cs-style-17" id="style17">
+					<h2 class="text-center">Style17</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure>
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="">BOB <b>DYLAN</b></h3>
+								<p class="">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-17{
+figure{
+  	figcaption {
+    text-align: right;
+  }
+  h3 {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    padding: 10px 0;
+    float: right;
+    color: #fff;
+  }
+  p {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    padding: 10px 0;
+    bottom: 30px;
+    line-height: 1.5;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    color:#fff;
+  }
+  h3 {
+    top: 30px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+  &:hover h3 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  h3::after {
+    position: absolute;
+    float: right;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    content: '';
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  &:hover {
+    h3::after, p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+}
+
+						</code></pre>
+					</div>
+				</div>
+																                    <div class="row grid cs-style-18" id="style18">
+					<h2 class="text-center">Style18</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure >
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="">BOB <b>DYLAN</b></h3>
+								<p class="">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-18{
+
+figure {
+  img {
+    backface-visibility: hidden;
+  	}
+  &:hover img {
+    opacity: 0.9;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  figcaption {
+    text-align: left;
+  }
+  h3, p {
+	bottom: 190px;
+	color: #fff;
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto; 
+	text-align: right;
+
+    }
+  h3 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #fff;
+      content: '';
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  &:hover h3::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  p {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  &:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+}
+
+						</code></pre>
+					</div>
+				</div>
+
+																				                    <div class="row grid cs-style-19" id="style19">
+					<h2 class="text-center">Style19</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure >
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h3 class="">BOB <b>DYLAN</b></h3>
+								<p class="">Once upon a time, you dressed so fine..</p>
+								<a href="#"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-19{
+figure {
+		max-height: 390px;
+	overflow: hidden;
+	figure{
+		overflow: hidden;
+		position: relative;
+		max-height: 380px
+	}
+  img {
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  figcaption {
+    text-align: left;
+  }
+  h3 {
+    position: relative;
+    padding: 0.5em 0;
+    bottom: 190px;
+    left: 20px;
+    color: #fff;
+  }
+  p {
+  	bottom: 190px;
+  	left: 20px;
+  	position: relative;
+    display: inline-block;
+    margin: 0 0 0.25em;
+    padding: 0.4em 1em;
+    background: rgba(255, 255, 255, 0.9);
+    color: #2f3238;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 75%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-360px, 0, 0);
+    transform: translate3d(-360px, 0, 0);
+    &:first-child {
+      -webkit-transition-delay: 0.15s;
+      transition-delay: 0.15s;
+    }
+    &:nth-of-type(2) {
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+    }
+    &:nth-of-type(3) {
+      -webkit-transition-delay: 0.05s;
+      transition-delay: 0.05s;
+    }
+  }
+  &:hover {
+    p {
+      &:first-child {
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+      }
+      &:nth-of-type(2) {
+        -webkit-transition-delay: 0.05s;
+        transition-delay: 0.05s;
+      }
+      &:nth-of-type(3) {
+        -webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
+      }
+    }
+    img {
+      opacity: 0.9;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+}
+						</code></pre>
+					</div>
+				</div>
+                       
+                        
+            <div class="row grid cs-style-20" id="style20">
+
+<h2 class="text-center">Style20</h2>
+<h3>For Icon Hover change :</h3>
+            
+<xmp>
+<figcaption>
+    <h3 class="text-center">Bob Dylan</h3>
+    <p class="text-center">Once upon a time</p>
+    <a href="#">Rolling Stone</a>
+</figcaption>
+</xmp> 
+            <h3>To this :</h3> 
+<xmp>
+<figcaption>
+  <h2>Bob Dylan</h2>
+  <p class="icon-links">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-instagram"></i></i></a>
+  </p>
+  <p class="description">Once Upon a time, you dressed do fine..</p>
+</figcaption>
+</xmp> 
+
+					<h2 class="text-center">Style20</h2>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<figure >
+							<img class="img-responsive" src="images/Bob.jpg" alt="img01">
+							<figcaption>
+								<h2>Bob Dylan</h2>
+							<p class="icon-links">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></i></a>
+							</p>
+							<p class="description">Once Upon a time, you dressed do fine..</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6 col-lg-6">
+						<pre><code class="css">
+.cs-style-20{
+	overflow: hidden;
+
+
+	figure {
+		position: relative;
+		figcaption {
+			top: auto;
+			padding: 1em;
+			background: #ED4E6E;
+			color: #3c4a50;
+			-webkit-transition: -webkit-transform 0.35s;
+			transition: transform 0.35s;
+			-webkit-transform: translate3d(0, 100%, 0);
+			transform: translate3d(0, 100%, 0);
+			position: absolute;
+			bottom:90px;
+			height: 90px;
+			width: 100%;
+			opacity: 0;
+			-webkit-transition: all 0.95s;
+			transition: all 0.95s;
+			i {
+				margin-top: 21px;
+				padding: 8px;
+			}
+		}
+		h2 {
+			float: left;
+			bottom: 90px
+		}
+		p.icon-links a {
+			float: right;
+			color: #3c4a50;
+			font-size: 1.4em;
+			bottom: 90px;
+		}
+		&:hover p.icon-links a {
+			&:hover, &:focus {
+				color: #252d31;
+			}
+		}
+		p.description {
+			position: absolute;
+			bottom: 8em;
+			padding: 2em;
+			color: #fff;
+			text-transform: none;
+			font-size: 90%;
+			opacity: 0;
+			-webkit-transition:all 0.35s;
+			transition: all 0.35s;
+			-webkit-backface-visibility: hidden;
+		/* Fix for Chrome 37.0.2062.120 (Mac) */
+		}
+		h2 {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0, 200%, 0);
+		transform: translate3d(0, 200%, 0);
+		}
+		p.icon-links a {
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0, 200%, 0);
+		transform: translate3d(0, 200%, 0);
+		span::before {
+			display: inline-block;
+			padding: 8px 10px;
+			font-family: 'feathericons';
+			speak: none;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		}
+}
+figure:hover figcaption{
+	opacity: 1;
+	bottom: 0px;
+	-webkit-transition:all 0.55s;
+	transition: all 0.55s;
+
+}
+
+figure {
+	h2 {
+		display: inline-block;
+	}
+	&:hover {
+		p.description {
+			opacity: 1;
+		}
+		figcaption, h2, p.icon-links a {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+		h2 {
+			-webkit-transition-delay: 0.05s;
+			transition-delay: 0.05s;
+		}
+		p.icon-links a {
+			&:nth-child(3) {
+				-webkit-transition-delay: 0.1s;
+				transition-delay: 0.1s;
+			}
+			&:nth-child(2) {
+				-webkit-transition-delay: 0.15s;
+				transition-delay: 0.15s;
+			}
+			&:first-child {
+				-webkit-transition-delay: 0.2s;
+				transition-delay: 0.2s;
+			}
+		}
+	}
+}
+}
+
+
+
+						</code></pre>
+					</div>
+				</div>
+							
+								
+										
+		</div><!-- /container -->
+		
+	
+
+	
+		
+
+		<div class="container-fluid content">
+		    <div class="row">
+		        <p class="text-center">Based on <a href="http://tympanus.net/codrops/2014/10/28/some-more-subtle-hover-effect-ideas/">These</a> and <a href="http://tympanus.net/codrops/2013/06/18/caption-hover-effects/">These</a> at codrops.</p>
+		    </div>
+		</div>
+
+
+<script>
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+        </script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".navbar").stick_in_parent(".site-wrapper");
+	});
+</script>	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61987290-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>
